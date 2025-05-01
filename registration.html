@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация | ФинIQ</title>
+  <style>
+    body {
+      background-color: #1a1a2e; /* Темно-синий фон */
+      color: #333;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    
+    .registration-section {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+    }
+    
+    .form-container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      padding: 30px;
+      margin: 20px auto;
+    }
+    
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+    
+    .back-button {
+      display: block;
+      text-align: center;
+      margin-top: 25px;
+      color: #0088cc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s;
+    }
+    
+    .back-button:hover {
+      color: #006699;
+      text-decoration: underline;
+    }
+    
+    /* Стилизация формы HubSpot */
+    .hs-form-field label {
+      font-weight: 500 !important;
+    }
+    
+    .hs-button.primary {
+      background: #0088cc !important;
+      border: none !important;
+      padding: 12px 24px !important;
+      font-weight: 600 !important;
+    }
+    
+    @media (max-width: 768px) {
+      .form-container {
+        padding: 20px;
+        margin: 10px;
+      }
+      
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <!-- Подключаем шрифт Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="registration-section">
+    <div class="form-container">
+      <h1>Регистрация на платформе ФинIQ</h1>
+      
+      <!-- Форма HubSpot -->
+      <script charset="utf-8" src="https://js-eu1.hsforms.net/forms/embed/146123501.js"></script>
+      <div class="hs-form-frame" 
+           data-region="eu1" 
+           data-form-id="f03f15d1-a734-406f-8f63-8b7caedeb0bf" 
+           data-portal-id="146123501">
+      </div>
+      
+      <a href="index.html" class="back-button">← Вернуться на главную</a>
+    </div>
+  </section>
+</body>
+</html>
